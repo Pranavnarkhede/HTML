@@ -8,9 +8,8 @@ $address = $_POST['address'];
 $marks10 = $_POST['marks10'];
 $marks12 = $_POST['marks12'];
 
-// Perform further processing or database operations with the collected data
 
-// Example: Saving the data to a text file
+
 $file = fopen("student_data.txt", "a");
 $data = "First Name: $firstName\nLast Name: $lastName\nAge: $age\nDate of Birth: $dob\nCity: $city\nAddress: $address\n10th Marks: $marks10\n12th Marks: $marks12\n\n";
 fwrite($file, $data);

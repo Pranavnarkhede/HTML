@@ -1,7 +1,7 @@
 function generateForm() {
     var formContainer = document.getElementById("formContainer");
 
-    // Clear existing form if any
+    
     formContainer.innerHTML = "";
 
     // Create the form dynamically
